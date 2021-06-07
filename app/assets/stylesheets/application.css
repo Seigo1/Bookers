@@ -35,7 +35,7 @@ strong {
     font-weight: bold;
 }
 
-p, span {
+p, span, ul {
     font-size: 13px;
     margin: 33px;
 }
@@ -78,3 +78,29 @@ label {
 .message {
     color: green;
 }
+
+.error_box {
+    width: 450px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error_message {
+    border: 2px solid red;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: 0px;
+    background-color: #c00;
+    color: #fff;
+}
+
+.error_text {
+    padding: 50px 40px 50px 80px;
+    line-height: 18px;
+    border: 2px solid red;
+    margin: 0px
+}
+
